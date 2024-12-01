@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #23272a;
+    color: #fff;
+    text-align: center;
+}
+
+.header {
+    padding: 50px 20px;
+    background: #7289da;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.discord-logo {
+    width: 124px;
+    height: auto;
+    margin-right: 5%;
+}
+
+.server-image {
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    object-fit: cover;
+    margin-left: 5%;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+#join-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #7289da;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#join-button:hover {
+    background: #ddd;
+}
+
+.features {
+    padding: 30px 20px;
+}
+
+.features h2 {
+    font-size: 2rem;
+}
+
+.feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #2c2f33;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #23272a;
+}
+
+.footer a {
+    color: #7289da;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
